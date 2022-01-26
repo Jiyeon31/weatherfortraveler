@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  }
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+img {
+    max-width: 100%
+}
+
+.logo-image {
+    flex-basis: 10%
+}
+
+.sitename {
+    background-color: skyblue;
+    font-size: 20px;
+    padding-left: 20px;
+    border-radius: .5rem;
+}
+
+.card {
+    margin: 0 0 20px 0;
+    border: 3px solid cornflowerblue;
+    border-radius: .5rem;
+}
+  
+.card-header {
+    color: black;
+    background-color: cornflowerblue;
+    padding: 2.5%;
+    border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
+}
+  
+.card-body {
+    padding: 2.5%;
+}
+  
+/* FORM */
+.form-label,
+.form-input,
+.form-textarea {
+    display: block;
+}
+  
+.form-label {
+    font-size: 1.1rem;
+    margin: 0 0 0 5px;
+}
+  
+.form-input {
+    width: 100%;
+    padding: 3%;
+    margin: 5px 0;
+    font-size: 1.2rem;
+    border: 2px solid cornflowerblue;
+    border-radius: .5rem;
+}
