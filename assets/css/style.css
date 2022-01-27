@@ -1,62 +1,63 @@
-* {
-    box-sizing: border-box;
-  }
-
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: center
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #f8f8ff;
 }
 
-img {
-    max-width: 100%
+#weatherContent {
+    display: none;
 }
 
-.logo-image {
-    flex-basis: 10%
+.navbar {
+    height: 150px!important;
 }
 
-.sitename {
-    background-color: skyblue;
-    font-size: 20px;
-    padding-left: 20px;
-    border-radius: .5rem;
+#cityDetail,
+#uvIndexColor,
+li {
+    color: #4D4F53!important;
 }
 
+#searchResults,
+#cityDetail,
 .card {
-    margin: 0 0 20px 0;
-    border: 3px solid cornflowerblue;
-    border-radius: .5rem;
+    background-color: #5A6C73!important;
 }
-  
-.card-header {
-    color: black;
-    background-color: cornflowerblue;
-    padding: 2.5%;
-    border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
+
+#searchResults {
+    height: 100vh;
 }
-  
-.card-body {
-    padding: 2.5%;
+
+#fiveDay .card {
+    border: 1px solid white!important;
 }
-  
-/* FORM */
-.form-label,
-.form-input,
-.form-textarea {
-    display: block;
+
+#searchHistory li {
+    background-color: #97A6A4;
+    color: #f8f8ff!important;
 }
-  
-.form-label {
-    font-size: 1.1rem;
-    margin: 0 0 0 5px;
+
+p {
+    color: #D9B779;
 }
-  
-.form-input {
-    width: 100%;
-    padding: 3%;
-    margin: 5px 0;
-    font-size: 1.2rem;
-    border: 2px solid cornflowerblue;
-    border-radius: .5rem;
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Raleway', sans-serif;
 }
+
+h2, h3, h4, h5 {
+    color: #f8f8ff;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #97A6A4;
+}
+
+
+
+
+
+
+
